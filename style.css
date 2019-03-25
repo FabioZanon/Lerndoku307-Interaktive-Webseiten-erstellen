@@ -7,12 +7,40 @@ html {
   body {
   
     
-    background-color: rgb(230, 230, 230);
+    
     margin: 0;
+    -webkit-animation-name: example; /* Safari 4.0 - 8.0 */
+    animation-iteration-count: infinite;
+  -webkit-animation-duration: 4s; /* Safari 4.0 - 8.0 */
+  animation-name: example;
+  animation-duration: 20s;
     
   
   }
+
+
   
+  @keyframes example {
+    0% {background-color:rgb(230, 230, 230); left:0px; top:0px;}
+    20%   {background-color:rgb(230, 230, 230); left:0px; top:0px;}
+    25%  {background-color:rgb(219, 219, 219); left:200px; top:0px;}
+    50%  {background-color:rgb(230, 230, 230); left:200px; top:200px;}
+    75%  {background-color:rgb(189, 189, 189); left:0px; top:200px;}
+    100% {background-color:rgb(230, 230, 230); left:0px; top:0px;}
+  }
+  
+  
+  
+  
+  
+  
+    
+  
+
+  
+
+
+ 
   .container {
   
     padding-top: 20px;
@@ -34,6 +62,11 @@ html {
     cursor: pointer;
     font-family: 'Muli', sans-serif;
     float: right;
+    -webkit-animation-name: example; /* Safari 4.0 - 8.0 */
+    animation-iteration-count: infinite;
+  -webkit-animation-duration: 4s; /* Safari 4.0 - 8.0 */
+  animation-name: example;
+  animation-duration: 20s;
     
     
   }
@@ -188,7 +221,11 @@ html {
   
   footer {
   
-   
+    -webkit-animation-name: example; /* Safari 4.0 - 8.0 */
+    animation-iteration-count: infinite;
+  -webkit-animation-duration: 4s; /* Safari 4.0 - 8.0 */
+  animation-name: example;
+  animation-duration: 20s;
     left: 0;
     bottom: 0;
     width: 100%;
@@ -266,12 +303,25 @@ html {
   }
   
   #myBtn:hover {
-    background-color: #555; /* Add a dark-grey background on hover */
+    background-color: rgb(70, 70, 70); /* Add a dark-grey background on hover */
   }
   
             
   .scrollup {
 
-   transition: 5s;
+   transition: 2s;
 
+  }
+  li {
+    font-family: 'Muli', sans-serif;
+    
+  }
+
+  .textfeld2 {
+
+  
+  display: flex;
+    justify-content: center;
+    padding-left: 2em;
+    padding-right: 2em;
   }
