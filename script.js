@@ -33,3 +33,29 @@ function topFunction() {
   document.body.scrollTop = 0; 
   document.documentElement.scrollTop = 0; 
 }
+
+
+
+
+
+
+
+var i = 0;
+do {
+    console.log(i)
+    i++;
+
+}
+while (i < 10);
+
+
+$('.colorchange').on("click", function(){
+    $('body').css("background-color", "red");
+})
+
+
+
+
+
+
+                 
