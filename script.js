@@ -16,7 +16,13 @@ function topFunction() {
 }
 
 
+$('.buttonBSP').on('click', function() {
+    $('.textfeldbutton').toggle();
+});
+
 // Ab hier kommen nur Beispiele für die Lerndokumentation!!//
+
+
 
 
 

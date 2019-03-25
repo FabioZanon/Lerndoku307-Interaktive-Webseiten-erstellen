@@ -329,3 +329,27 @@ html {
     padding-left: 2em;
     padding-right: 2em;
   }
+
+  .buttonBSP {
+
+    border-style: none;
+    width: 9em;
+    height: 3em;
+    left: 0;
+    
+    
+  }
+
+  .buttonBSP:hover {
+
+    background-color: rgb(170, 170, 170);
+  }
+
+
+  .textfeldbutton {
+    
+    display: flex;
+    justify-content: center;
+    padding-left: 2em;
+    padding-right: 2em;
+  }
