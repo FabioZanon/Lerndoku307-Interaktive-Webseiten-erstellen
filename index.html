@@ -19,8 +19,11 @@
         <div class="dropdown">
             <button class="dropbtn">PHP</button>
             <div class="dropdown-content">
-                <a href="#">Was ist PHP?</a>
-                <a href="#">Unterschied jQuery und PHP</a>
+                <a href="#anker13">Was ist PHP?</a>
+                <a href="#anker14">Syntax</a>
+                <a href="#anker15">Serverseitige Validierung</a>
+                <a href="#anker16">Unterschied jQuery und PHP</a>
+               
 
             </div>
         </div>
@@ -322,7 +325,7 @@ dass sie IMMER mindestens einmal ausgeführt wird, selbst wenn die Bedingung gle
 zu oberst erwähnt, </p></div>
 <hr>
 
-<div class="textfeld"><h3>Text mithilfe eines Buttons Ein/Ausblenden lassen</h3></div>
+<div class="textfeld"><h3 id="anker12">Text mithilfe eines Buttons Ein/Ausblenden lassen</h3></div>
 <div class="textfeld"><p>Mit JavaScript (JQuery) lassen sich viele Dinge tun. Dies ist nicht mehr so schwierig, wenn man das Grundprizip und 
     den Aufbau solcher Skripts verstanden hat. Hier ist noch ein kleines Beispiel, wie man mit einem Knopfdruck eine Nachricht verschwinden und wieder auftauchen lässt.
 
@@ -344,12 +347,48 @@ zu oberst erwähnt, </p></div>
 <div class="textfeld"><p><i>Hier ist die Syntax dafür:</i></p></div>
 <div class="img"><img src="img/KnopfAusEinblenden.PNG" alt="Nachricht mithilfe eines Buttons ein/ausblenden"></div>
 <hr>
+<hr>
 
 
 
 
 
+<div class="textfeld"><h3 id="anker13">PHP Erklärung</h3>
+</div>
+<div class="textfeld"><p>PHP ist eine Serverseitige Programmiersprache, das heisst man braucht einen Webserver, 
+    um PHP-Dateien ausführen zu können. Dazu reicht aber XAMPP. In den meisten Fällen wird PHP verwendet, um die 
+    Serverseitige Validierung durchzuführen, Benutzerdaten der Datenbank ausgeben oder sie einfügen. Da die Logik hinter 
+    dem Programmieren immer gleich ist, gehe ich hier nur kurz auf die Syntax von PHP ein und zeige die Unterschiede von 
+    JavaScript und PHP. Wie man dann in PHP eine For-Schleife erstellt, kann man dann in wenigen Sekunden auf <a href="https://www.w3schools.com/php/default.asp">W3Schools</a> nachlesen.</p>
+</div>
 
+<div class="textfeld"><h3 id="anker14">Syntax</h3></div>
+<div class="textfeld"><p>PHP wird immer in ein Spezielles Tag geschrieben, welches nur in .php Dateien definiert ist. 
+    In diese Dateien können Sie auch HMTL-Code schreiben. Index.php wird vor Index.html aufgerufen, seien Sie also vorsichtig 
+    bei der Namensgebung. Die PHP-Tags sehen so aus . Hier ist die Syntax mit einem Beispiel vom Erstellen einer Funktion die 
+    Hello World ausgibt.</p></div>
+    <div class="img"><img src="img/PHPSyntax.PNG" alt="Syntax von PHP"></div>
+   <div class="textfeld"><p><a href="https://www.w3schools.com/php/php_syntax.asp">Hier</a> kannst du alles über die Syntax von PHP erfahren, auch wie du Schleifen, IF Else Abfragen und vieles weitere 
+       erstellen kannst.</p>
+   </div>
+
+
+
+<hr>
+
+
+
+<div class="textfeld"><h3 id="anker15">Serverseitige Validierung</h3></div>
+<div class="textfeld"><p>Die Serverseitige Validierung ist eines der wichtigsten Themen, um seine Webseite / Server zu schützen. So können zum SQL-Injections verhindert werden mit nur einer Zeile PHP-Code, welche 
+    so aussieht:</p></div>
+    <div class="textfeld">
+        <p><strong>$prename = mysqli_real_escape_string($_REQUIRED['prename']);</strong>. Das $_REQUIRED ist ein Platzhalter für POST oder GET, so müssen Sie sich nicht darauf achten, was Sie verwendet haben. Diese Funktion 
+        schliesst alle Strings aus, welche wie SQL-Befehle aussehen. Um die Seite vor Cross Site Scripting (XSS) zu schützen, können Sie die Variable wie folgt definieren:</p>
+    </div>
+
+    <div class="textfeld"><p><strong>$prename = htmlspecialchars($_REQUIRED['prename']);</strong>. Diese Funktion generiert aus allen Spezialzeichen wie <> 
+        einen Zeichencode, sodass XSS-Attacken unschädlich gemacht werden.</p></div>
+        <div class="img"><img src="img/ServerseitigeValidierung.PNG" alt="Serverseitige Validierung Codes"></div>
 
 
 
