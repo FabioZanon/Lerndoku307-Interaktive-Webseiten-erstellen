@@ -10,19 +10,20 @@
     <link href="https://fonts.googleapis.com/css?family=Muli" rel="stylesheet">
     <link rel="icon" type="image/png" sizes="32x32" href="favicon/favicon-16x16.png">
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
-    <title>Modul 307</title>
+    <title>Interaktive Webseiten erstellen</title>
 </head>
 
 <body>
     <div class="container">
-
+<div class="navigation">
         <div class="dropdown">
             <button class="dropbtn">PHP</button>
             <div class="dropdown-content">
                 <a href="#anker13">Was ist PHP?</a>
                 <a href="#anker14">Syntax</a>
                 <a href="#anker15">Serverseitige Validierung</a>
-                <a href="#anker16">Unterschied jQuery und PHP</a>
+                <a href="#anker16">Unterschiede JavaScript und PHP</a>
+               
                
 
             </div>
@@ -58,16 +59,87 @@
                 <a href="#anker2">JavaScript Einbinden</a>
                 <a href="#anker3">Alert Funktion</a>
                 <a href="#anker4">Variable erstellen</a>
-                <a href="#anker5">Ansprechen von Variablen in die Konsole</a>
+                <a href="#anker5">Ausgeben von Variablen in die Konsole</a>
                 <a href="#anker6">Alle Werte einer Variable anzeigen lassen</a>
                 <a href="#anker7">Funktion erstellen & benutzen</a>
                 <a href="#anker8">Funktion & Verwendung von i++</a>
                 <a href="#anker11">if..else</a>
+                <a href="#anker100">POST und GET Methode</a>
                
                 
 
             </div>
         </div>
+    </div>
+
+
+
+
+
+
+
+
+
+
+
+    <div class="navigation2">
+    <div class="dropdown">
+        <button class="dropbtn">PHP</button>
+        <div class="dropdown-content">
+            <a href="#anker13">Was ist PHP?</a>
+            <a href="#anker14">Syntax</a>
+            <a href="#anker15">Serverseitige Validierung</a>
+            <a href="#anker16">Unterschiede JavaScript und PHP</a>
+           
+           
+
+        </div>
+    </div>
+
+
+
+
+
+
+    <div class="dropdown">
+        <button class="dropbtn">JQuery</button>
+        <div class="dropdown-content">
+                <a href="#anker9">JQuery Erklärung</a>
+                <a href="#anker10">HTML Elemente mit JQuery manipulieren</a>
+                <a href="#anker12">Text mit Button Ein/Ausblenden lassen</a>
+                
+                
+
+        </div>
+    </div>
+
+
+
+
+
+
+
+    <div class="dropdown">
+        <button class="dropbtn">JavaScript</button>
+        <div class="dropdown-content">
+            <a href="#anker1">JavaScript Erklärung</a>
+            <a href="#anker2">JavaScript Einbinden</a>
+            <a href="#anker3">Alert Funktion</a>
+            <a href="#anker4">Variable erstellen</a>
+            <a href="#anker5">Ausgeben von Variablen in die Konsole</a>
+            <a href="#anker6">Alle Werte einer Variable anzeigen lassen</a>
+            <a href="#anker7">Funktion erstellen & benutzen</a>
+            <a href="#anker8">Funktion & Verwendung von i++</a>
+            <a href="#anker11">if..else</a>
+            <a href="#anker100">POST und GET Methode</a>
+           
+            
+
+        </div>
+    </div>
+
+</div>
+
 
 
 
@@ -75,7 +147,8 @@
 
 
         <div class="divdoku">
-            <h1><i id="ankersonder">Interkative Webseiten erstellen</i></h1>
+            <h1 class="flexnone"><i id="ankersonder">Interaktive Webseiten erstellen</i></h1>
+            <h1 class="h1none"><i id="ankersonder2">Modul 307</i></h1>
 
         </div>
 
@@ -144,7 +217,7 @@
         <div class="textfeld">
             <p><i>Beispiel:</i></p>
         </div>
-        <div class="img"><img src="img/alertBefehl.PNG" alt="Der Alert-Befehl"></div>
+        <div class="img"><img src="img/alertBefehl.PNG" alt="Der Alert-Befehl" class="media3"></div>
 
 
 
@@ -166,14 +239,14 @@
                 der Variable.</p>
         </div>
         <div class="textfeld">
-            <p>Man kann auch zwei Variabelen erstellen und diese addieren. <i>Addidtion zweier Variablen:</i></p>
+            <p>Man kann auch zwei Variablen erstellen und diese addieren. <i>Addition zweier Variablen:</i></p>
         </div>
         <div class="img"><img src="img/AddierenVonVariablen.PNG" alt="Zwei Variablen addieren"></div>
         <div class="textfeld">
             <p>Diese Syntax zeigt, wie man Variablen addiert. Man kann sie jedoch auch miteinander multiplizieren,
                 dividieren oder subtrahieren. Ganz einfach mit "+", "-", "*", "/".
                 Ein Wert einer Variable kann jedoch auch strings beinhalten. Also z.B: "Das Hier". Diese strings also
-                Werte, werden anderst als Zahlen, entweder in " " oder ' ' geschrieben. <i>Beispiel:</i>
+                Werte, werden anders als Zahlen, entweder in " " oder ' ' geschrieben. <i>Beispiel:</i>
             </p>
         </div>
         <div class="img"><img src="img/StringsUndZahlen.PNG" alt="Unterschied zwischen Strings und Zahlen"></div>
@@ -199,14 +272,14 @@
         </div>
         <div class="img"><img src="img/variableInDerKonsoleAusgeben.PNG" alt="Variable in der Konsole ausgeben"></div>
         <br />
-        <div class="img"><img src="img/ErgebnisKonsole.PNG" alt="Ergebnis in der Konsole ausgebeben"></div>
+        <div class="img"><img src="img/ErgebnisKonsole.PNG" alt="Ergebnis in der Konsole ausgebeben" class="media3"></div>
         <div class="textfeld">
             <p>Addidtion zweier Variablen in der Konsole ausgeben:</p>
         </div>
         <br />
         <div class="img"><img src="img/AddidtionKonsole.PNG" alt="Addition in der Konsole ausgeben"></div>
         <br />
-        <div class="img"><img src="img/AdditionKonsoleErgebnis.PNG" alt="Addition in der Konsole Ergebnis"></div>
+        <div class="img"><img src="img/AdditionKonsoleErgebnis.PNG" alt="Addition in der Konsole Ergebnis" class="media3"></div>
         <br />
         <div class="textfeld">
             <p>Wenn man jetzt die Werte auf der Website ausgeben möchte, was ja mehr Sinn machen würde, müsse man
@@ -214,12 +287,12 @@
                 console.log(); document.getElementById('p').innerHTML = Beispiel + Beispiel2; eingeben:
             </p>
         </div>
-        <div class="img"><img src="img/VariableDocumentWrite.PNG" alt="VarDocument"></div>
+        <div class="img"><img src="img/VariableDocumentWrite.PNG" alt="VarDocument" class="media3"></div>
         <br />
         <div class="img"><img src="img/VariableDocumentWriteErgebnis.PNG" alt="VarDocumentErgebnis"></div>
         <div class="textfeld">
             <p>Man könnte auch einfach: document.write(Beispiel + Beispiel2); schreiben, dann würde die Zahl 9 aber
-                irgendwo wo es Platz hat platziert werden. Wie man aber im Syntax sieht, wurde dies anderst geregelt.
+                irgendwo wo es Platz hat platziert werden. Wie man aber im Syntax sieht, wurde dies anders geregelt.
                 Hierfür ist das Element mit der ID 'p' aus HTML
                 als Platzhalter benutzt worden, um das Ergebnis an dieser Stelle einzufügen.
             </p>
@@ -231,17 +304,17 @@
             <h3 id="anker6">Alle Werte einer Variable anzeigen lassen</h3>
         </div>
         <div class="textfeld">
-            <p>Eine Variable kann auch mehrere Werte enthalen, dies hat praktisch keine Grenzen. Wenn aber eine Variable
+            <p>Eine Variable kann auch mehrere Werte enthalten, dies hat praktisch keine Grenzen. Wenn aber eine Variable
                 sehr viele
                 Werte hat, ist es von Vorteil, wenn man nicht alle in die Klammer schreiben muss, um sie anzeigen zu
                 lassen. <i>Hier ist die Syntax und das Ergebnis dazu:</i>
             </p>
         </div>
-        <div class="img"><img src="img/Kuehlschrank.PNG" alt="Syntax für alle Werte einer Variable anzeigen lassen">
+        <div class="img"><img src="img/Kuehlschrank.PNG" alt="Syntax für alle Werte einer Variable anzeigen lassen" class="media5">
         </div>
         <br />
         <div class="img"><img src="img/KuehlschrankErgebnis.PNG"
-                alt="Alle Werte einer Variable anzeigen lassen Ergebnis"></div>
+                alt="Alle Werte einer Variable anzeigen lassen Ergebnis" class="media5"></div>
 
                 <hr>
 
@@ -249,8 +322,8 @@
     <div class="textfeld"><h3 id="anker7">Erstellen und Benutzen einer Funktion</h3></div>
 <div class="textfeld"><p>Funktionen sind der Hauptbestandteil und somit sehr wichtig in JavaScript. Beispiele für Funktionen sind z.B alert(), hide(), 
     function(), var() usw. Hier ist die Syntax für das Erstellen einer Funktion <i><a href="#anker9">(Mit jQuery)</a></i>: </p></div>
-    <div class="img"><img src="img/FunktionErstellen.PNG" alt="Erstellen einer Funktion"></div>
-    <div class="textfeld"><p>Hier wird definiert, dass beim Kllicken auf den Button (class = colorchange), der Hintergrund auf rot geändert werden sollte. Man kann jedoch auch vordefinierte Funktionen 
+    <div class="img"><img src="img/FunktionErstellen.PNG" alt="Erstellen einer Funktion" class="media6"></div>
+    <div class="textfeld"><p>Hier wird definiert, dass beim Klicken auf den Button (class = colorchange), der Hintergrund auf rot geändert werden sollte. Man kann jedoch auch vordefinierte Funktionen 
         verwenden, also Funktionen, die JavaScript bzw. JQuery besitzt. Hier ist ein Beispiel dazu:
     </p></div>
     <div class="img"><img src="img/DivHide.PNG" alt="Alle div2's verstecken"></div>
@@ -262,7 +335,7 @@
     <div class="textfeld"><h3 id="anker8">Funktion & Verwendung von i++</h3></div>
     <div class="textfeld"><p>Die Funktion "i++" wird in den so genannten "Schleifen" verwendet. Dabei steht "i++" für nichts anderes, 
         als "i = i+1" In einer Schleife wird eine Bedingung geprüft. 
-        Wenn sie "true" ergibt, wird ein Codeblock ausgreführt. Anschliessend wird die Bedingung erneut geprüft, und wenn sie immer noch true ist, wird der Codeblock erneut 
+        Wenn sie "true" ergibt, wird ein Codeblock ausgeführt. Anschliessend wird die Bedingung erneut geprüft, und wenn sie immer noch true ist, wird der Codeblock erneut 
         ausgeführt. Das wird so lange wiederholt, bis die Prüfung false zurückgibt. Es gibt drei Arten von Schleifen:
     </p></div>
     <div class="textfeld2">
@@ -281,13 +354,13 @@ verwendet man eine for-Schleife. (Gebräuchlichste Art von Schleife.) Die Beding
         bis die Zahl 4 erreicht wird. Denn i soll ja kleiner sein als 5.</p></div>
 <div class="img"><img src="img/ForSchleifeCode.PNG" alt="Die for-Schleife"></div>
 <br />
-<div class="img"><img src="img/ForSchleifeErgebnis.PNG" alt="Das Ergebnis der for-Schleife"></div>
+<div class="img"><img src="img/ForSchleifeErgebnis.PNG" alt="Das Ergebnis der for-Schleife" class="media3"></div>
 <div class="textfeld"><p>
 </p></div>
 
 <div class="textfeld"><p><strong>While-Schleife:</strong> Wenn man nicht weiss, wie oft der Code ausgeführt werden muss, verwendet man eine while-Schleife. Die Bedingung muss hier kein Zähler sein. Der Code durchläuft die Schleife so lange, wie die Bedingung true ist.</p></div>
 <div class="img"><img src="img/whileCode.PNG" alt="While-Schleife Code"></div>
-<div class="textfeld"><p><strong>Do..While-Schleife.</strong> Die do..while-Schleife kann man gut mit der while-schleife vergleichen. Nur dient die Do..While-Schleife dafür, 
+<div class="textfeld"><p><strong>Do..While-Schleife.</strong> Die do..while-Schleife kann man gut mit der while-Schleife vergleichen. Nur dient die Do..While-Schleife dafür, 
 dass sie IMMER mindestens einmal ausgeführt wird, selbst wenn die Bedingung gleich zu Anfang zu false ausgewertet wird.</p></div>
 <div class="img"><img src="img/doWhileCode.PNG" alt="Do..While-Schleife Code"></div>
 
@@ -299,10 +372,19 @@ dass sie IMMER mindestens einmal ausgeführt wird, selbst wenn die Bedingung gle
 <div class="textfeld"><p>Um eine Entscheidung treffen zu können, muss der Code den aktuellen Zustand prüfen. Dazu werden gewöhnlich zwei Werte mithilfe eines 
     Vergleichsoperators verglichen, was den Wert true oder false zurückgibt. <i>Hier ist die Syntax für ein Beispiel:</i>
 </p></div>
-<div class="img"><img src="img/IfElse.PNG" alt="If Else"></div>
+<div class="img"><img src="img/IfElse.PNG" alt="If Else" class="media6"></div>
 
+<hr>
 
-
+<div class="textfeld"><h3 id="anker100">POST und GET Methode</h3></div>
+<div class="textfeld"><p>POST und GET benutzt man bei Web-Formularen. Wenn ein Benutzer in einem Registrierungs-Formular auf "Senden" drückt, dann sollen die Daten an einen 
+    Server geschickt werden. Dies kann mit dem "action" Attribut im Form-Tag erreicht werden. Als Pfad wird die Datei auf dem Server angegeben, welche die Daten weiterverarbeiten kann. 
+    Deshalb ist es essentiell wichtig, jedem Input einen Namen zu geben, denn anhand des Namens können nachher die Daten mit PHP auf dem Server ausgelesen und verarbeitet werden.</p></div>
+<div class="img"><img src="img/PostGet.PNG" alt="Die Methode POST und GET" class="media2"></div>
+<div class="textfeld"><p>Mit dem "method" Attribut wird die Methode angegeben, mit welcher die Daten an den Server übermittelt werden. Hier wird zwischen "get" und "post" unterschieden. Bei GET werden 
+    die Daten in die URL geschrieben, so ähnlich wie bei Google, bei POST sind die Daten nicht zu sehen, diese Methode ist auch die Sichere, dieses Thema wird aber später noch behandelt. Hier ist aber noch das 
+    Beispiel, wie die GET-Methode die Daten weitergibt:</p></div>
+    <div class="img"><img src="img/GetMethode.PNG" alt="Ergebnis der Methode GET" class="media1"></div>
 
 
 
@@ -319,14 +401,14 @@ dass sie IMMER mindestens einmal ausgeführt wird, selbst wenn die Bedingung gle
 <div class="textfeld"><p>Mit der Funktion jQuery() kann man Elemente auf der Seite finden. 
     Sie erstellt das Objekt jQuery, das Verweise auf die Elemente enthält. Als Abkürzung für jQuery() wird häufig $() geschrieben.
 </p></div>
-<div class="img"><img src="img/jQueryHTMLCSS.PNG" alt="Mit jQuery HTML Elemente manipulieren"></div>
-<div class="textfeld"><p>In dieser Syntax wird das HTML Element "h3" selektiert. Nun sind ALLE "h3" Elemente angewählt und werden durch "Das hier ist die 
+<div class="img"><img src="img/jQueryHTMLCSS.PNG" alt="Mit jQuery HTML Elemente manipulieren" class="media4"></div>
+<div class="textfeld"><p>In diese Syntax wird das HTML Element "h3" selektiert. Nun sind ALLE "h3" Elemente angewählt und werden durch "Das hier ist die 
     neue Überschrift" ersetzt und anschliessend noch rot gefärbt. Dies ist eine Variante, wie man HTML Elemente manipulieren kann. Wie bereits 
 zu oberst erwähnt, </p></div>
 <hr>
 
 <div class="textfeld"><h3 id="anker12">Text mithilfe eines Buttons Ein/Ausblenden lassen</h3></div>
-<div class="textfeld"><p>Mit JavaScript (JQuery) lassen sich viele Dinge tun. Dies ist nicht mehr so schwierig, wenn man das Grundprizip und 
+<div class="textfeld"><p>Mit JavaScript (JQuery) lassen sich viele Dinge tun. Dies ist nicht mehr so schwierig, wenn man das Grundprinzip und 
     den Aufbau solcher Skripts verstanden hat. Hier ist noch ein kleines Beispiel, wie man mit einem Knopfdruck eine Nachricht verschwinden und wieder auftauchen lässt.
 
 </p>
@@ -345,7 +427,8 @@ zu oberst erwähnt, </p></div>
 
 
 <div class="textfeld"><p><i>Hier ist die Syntax dafür:</i></p></div>
-<div class="img"><img src="img/KnopfAusEinblenden.PNG" alt="Nachricht mithilfe eines Buttons ein/ausblenden"></div>
+<div class="img"><img src="img/KnopfAusEinblenden.PNG" alt="Nachricht mithilfe eines Buttons ein/ausblenden" class="media6"></div>
+<div class="brake"></div>
 <hr>
 <hr>
 
@@ -386,17 +469,40 @@ zu oberst erwähnt, </p></div>
         schliesst alle Strings aus, welche wie SQL-Befehle aussehen. Um die Seite vor Cross Site Scripting (XSS) zu schützen, können Sie die Variable wie folgt definieren:</p>
     </div>
 
-    <div class="textfeld"><p><strong>$prename = htmlspecialchars($_REQUIRED['prename']);</strong>. Diese Funktion generiert aus allen Spezialzeichen wie <> 
+    <div class="textfeld"><p><strong>$prename = htmlspecialchars($_REQUIRED['prename']);</strong>. Diese Funktion generiert aus allen Spezialzeichen wie &lt;&gt;
         einen Zeichencode, sodass XSS-Attacken unschädlich gemacht werden.</p></div>
-        <div class="img"><img src="img/ServerseitigeValidierung.PNG" alt="Serverseitige Validierung Codes"></div>
+        <div class="img"><img src="img/ServerseitigeValidierung.PNG" alt="Serverseitige Validierung Codes" class="media3"></div>
+        <div class="brake"></div>
+<hr>
 
+<div class="brake"></div>
 
+<div class="textfeld"><h3 id="anker16">Unterschiede zwischen JavaScript und PHP</h3></div>
+<div class="img"><img src="img/UnterscheideJSundPHP.PNG" alt="Unterschiede zwischen JavaScript und PHP" class="media"></div>
+<div class="brake"></div>
 
+<hr>
 
+<div class="textfeld"><h3>Testprotokoll</h3></div>
+<div class="textfeld"><p>Wenn man mit der Webseite fertig ist, dann sollte man diese noch testen. Dafür wird ein Testprotokoll 
+    erstellt, auf dem steht, von wem und wann getestet wurde. Das Testprotokoll an sich teilt man in vier Spalten auf, eine indem 
+    steht was getestet wird, in der zweiten wie getestet wird, in der dritten was erhofft wird (das erhoffte Ergebnis) und in der 
+    vierten Spalte das erhaltene Ergebnis. Falls ein Fehler auftritt, soll auch dieser beschrieben werden. Jetzt könnte noch ein extra 
+    Protokoll erstellen, wo protokolliert wird, wie der Fehler behoben wird. Die Seite sollten Sie auf folgende Dinge testen:</p>
+</div>
+<div class="textfeld2"><ul>
 
+    <li>Browserkompatibilität (Wird die Webseite in allen Browsern korrekt angezeigt)</li>
+    <li>Responsives Design korrekt (Ist die Webseite responsiv, funktioniert das auch alles und wie sieht es wirklich auf einem Smartphone aus)</li>
+    <li>Funktionierende Links (funktionieren alle Links auf der Seite, gilt für Verlinkungen intern sowie Verlinkungen zu anderen Webseiten)</li>
+    <li>Werden die Formularfelder Validiert</li>
+    <li>Treten Sicherheitslücken auf</li>
 
+</ul></div>
+<div class="textfeld"><p>Zusätzlich kann man <a href="https://validator.w3.org/#validate_by_input">HIER</a> den HTML und CSS Code validieren lassen bzw. auf Fehler untersuchen.</p></div>
 
-        <p id="p"></p>
+<hr>
+        
 
 
 
@@ -408,8 +514,7 @@ zu oberst erwähnt, </p></div>
     
         <div class="brake"></div>
         <div class="brake"></div>
-        <div class="brake"></div>
-        <div class="brake"></div>
+        
     </div>
 
 
@@ -417,7 +522,7 @@ zu oberst erwähnt, </p></div>
  
     <footer>
         <div class="divfooter">
-            <p class="pfooter">➤ <i>Lerndokumentation über das Modul 307     / Interaktive Webseiten erstellen / Fabio Zanon</i></p>
+            <p class="pfooter">➤ <i>Lerndokumentation über das Modul 307     / Interaktive Webseiten erstellen / © 2019 Fabio Zanon </i></p>
         </div>
 
         <a class="footertext" href="#ankersonder">
